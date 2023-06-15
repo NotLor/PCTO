@@ -1,0 +1,307 @@
+body{
+    background-image: url("https://images.hdqwalls.com/wallpapers/purple-lamborghini-aventador-5k-jw.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.interfaccia{
+  text-align: center;
+  border-left: auto;
+  border-right: auto;
+  backdrop-filter: saturate(180%) blur(13px);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding-bottom: 50px;
+  padding-top: 15px;
+  border: 2px solid rgb(139, 0, 253);
+  min-height: 53em;
+
+}
+h1{
+  font-family: "Avenir Next", Avenir, "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  color: rgba(200,200,200,.85);
+}
+
+h2{
+  font-family: "Avenir Next", Avenir, "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  margin-left: 25%;
+  text-align: left;
+  color: rgba(200,200,200,.85);
+  margin-top: 30px;
+}
+
+/*BOTTONI*/
+.btn {
+    font-size: 17px;  
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: rgb(139, 0, 253);
+    color: white;
+    border-radius: 4px;
+    width: 51.7%;
+    margin-top: 5px;
+    height: 45px;
+}
+   
+.btn:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(117, 43, 255) 0%, rgb(185, 81, 255) 100%);
+}
+   
+.btn:active {
+    transform: translate(0em, 0.2em);
+}
+
+.btn1 {
+  font-size: 17px;  
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  background: rgb(139, 0, 253);
+  color: white;
+  border-radius: 4px;
+  width: 13%;
+  margin-top: 5px;
+  height: 45px;
+}
+ 
+.btn1:hover {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgb(117, 43, 255) 0%, rgb(185, 81, 255) 100%);
+}
+ 
+.btn1:active {
+  transform: translate(0em, 0.2em);
+}
+
+/*INPUT TEXT*/
+input[type="text"]{
+    margin-top: 5px;
+    width: 50%;
+    height: 40px;
+    background-color: #f5f5f5;
+    color: #242424;
+    padding: .15rem .5rem;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    line-height: 1.15;
+    box-shadow: 0px 10px 5px -18px;
+}
+
+input[type="text"]:focus {
+    border-bottom: 2px solid rgb(139, 0, 253);
+    border-radius: 4px 4px 2px 2px;
+}
+  
+input[type="text"]:hover {
+    outline: 1px solid lightgrey;
+}
+
+input[type="text1"]{
+  margin-top: 5px;
+  width: 36.5%;
+  height: 40px;
+  background-color: #f5f5f5;
+  color: #242424;
+  padding: .15rem .5rem;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  line-height: 1.15;
+  box-shadow: 0px 10px 5px -18px;
+}
+
+input[type="text1"]:focus {
+  border-bottom: 2px solid rgb(139, 0, 253);
+  border-radius: 4px 4px 2px 2px;
+}
+
+input[type="text1"]:hover {
+  outline: 1px solid lightgrey;
+}
+/*INPUT NUMBER*/
+input[type="number"]{
+    margin-top: 5px;
+    width: 50%;
+    height: 40px;
+    background-color: #f5f5f5;
+    color: #242424;
+    padding: .15rem .5rem;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    line-height: 1.15;
+    box-shadow: 0px 10px 5px -18px;
+}
+
+input[type="number"]:focus {
+    border-bottom: 2px solid rgb(139, 0, 253);
+    border-radius: 4px 4px 2px 2px;
+}
+ 
+input[type="number"]:hover {
+    outline: 1px solid lightgrey;
+}
+
+/*SELECT*/
+select{
+  margin-top: 5px;
+  width: 51.7%;
+  height: 45px;
+  background-color: #f5f5f5;
+  color: #242424;
+  padding: .0rem .1rem;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  line-height: 1.15;
+  box-shadow: 0px 10px 5px -18px;
+}
+
+select:focus {
+  border-bottom: 2px solid rgb(139, 0, 253);
+  border-radius: 4px 4px 2px 2px;
+}
+
+select:hover {
+  outline: 1px solid lightgrey;
+}
+option{
+  font-size: 15px;
+  background-color: rgb(139, 0, 253);
+}
+
+/*TABELLA*/
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 52%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+th{
+  background-color: rgb(139, 0, 253, 0.9);
+}
+p{
+  color: rgba(200, 200, 200); 
+  font-family: "Avenir Next", Avenir, "Helvetica Neue", sans-serif;
+  font-size: 20px;
+}
+td{
+  color: rgb(255, 255, 255);
+  border-bottom: 1.5px solid rgb(139, 0, 253, 0.9);
+}
+
+/*CHECKBOX*/
+.ui-checkbox {
+    --primary-color: rgb(139, 0, 253);
+    --secondary-color: #fff;
+    --primary-hover-color: rgb(139, 0, 253);
+    /* checkbox */
+    --checkbox-diameter: 20px;
+    --checkbox-border-radius: 5px;
+    --checkbox-border-color: #d9d9d9;
+    --checkbox-border-width: 1px;
+    --checkbox-border-style: solid;
+    /* checkmark */
+    --checkmark-size: 1.2;
+  }
+  
+  .ui-checkbox, 
+  .ui-checkbox *, 
+  .ui-checkbox *::before, 
+  .ui-checkbox *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .ui-checkbox {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: var(--checkbox-diameter);
+    height: var(--checkbox-diameter);
+    border-radius: var(--checkbox-border-radius);
+    background: var(--secondary-color);
+    border: var(--checkbox-border-width) var(--checkbox-border-style) var(--checkbox-border-color);
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .ui-checkbox::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-box-shadow: 0 0 0 calc(var(--checkbox-diameter) / 2.5) var(--primary-color);
+    box-shadow: 0 0 0 calc(var(--checkbox-diameter) / 2.5) var(--primary-color);
+    border-radius: inherit;
+    opacity: 0;
+    -webkit-transition: all 0.5s cubic-bezier(0.12, 0.4, 0.29, 1.46);
+    -o-transition: all 0.5s cubic-bezier(0.12, 0.4, 0.29, 1.46);
+    transition: all 0.5s cubic-bezier(0.12, 0.4, 0.29, 1.46);
+  }
+  
+  .ui-checkbox::before {
+    top: 40%;
+    left: 50%;
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 7px;
+    border-right: 2px solid var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+    -webkit-transform: translate(-50%, -50%) rotate(45deg) scale(0);
+    -ms-transform: translate(-50%, -50%) rotate(45deg) scale(0);
+    transform: translate(-50%, -50%) rotate(45deg) scale(0);
+    opacity: 0;
+    -webkit-transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6),opacity 0.1s;
+    -o-transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6),opacity 0.1s;
+    transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6),opacity 0.1s;
+  }
+  
+  /* actions */
+  
+  .ui-checkbox:hover {
+    border-color: var(--primary-color);
+  }
+  
+  .ui-checkbox:checked {
+    background: var(--primary-color);
+    border-color: transparent;
+  }
+  
+  .ui-checkbox:checked::before {
+    opacity: 1;
+    -webkit-transform: translate(-50%, -50%) rotate(45deg) scale(var(--checkmark-size));
+    -ms-transform: translate(-50%, -50%) rotate(45deg) scale(var(--checkmark-size));
+    transform: translate(-50%, -50%) rotate(45deg) scale(var(--checkmark-size));
+    -webkit-transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
+    -o-transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
+    transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
+  }
+  
+  .ui-checkbox:active:not(:checked)::after {
+    -webkit-transition: none;
+    -o-transition: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    transition: none;
+    opacity: 1;
+  }
+
+  /* responsive */
+@media screen and (max-width: 768px) {
+  .interfaccia {
+      width: 100%;
+  }
+}
